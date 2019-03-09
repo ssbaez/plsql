@@ -1,0 +1,21 @@
+SET SERVEROUTPUT ON
+DECLARE
+/* OPERADORES HABITUALES
+    
+    CUALQUIER VARIABLE QUE NO SE INICIALICE VA A DEVOLVER UN NULL
+    
+    +   SUMA
+    -   RESTA
+    /   DIVISION
+    *   MULTIPLICACION
+    **  EXPONENTE
+    ||  CONCATENAR
+    
+*/
+    x number;
+    z number:=10;
+    a varchar(10):='EXAMPLE';
+    d date:='10-01-1990';
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(x);
+END;
